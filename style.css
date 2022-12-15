@@ -9,12 +9,24 @@ body {
 	background-color: white;
 }
 
+.wrapper-outer {
+	width: 100%;
+}
+
+.dark {
+	background-color: red;
+}
+
+.light {
+	background-color: green;
+}
+
 .wrapper {
 	width: 1400px;
 	margin: 0 auto;
 	display: grid;
 	grid-template-columns: repeat(12, 1fr);
-	grid-template-rows: repeat(10, minmax(100px, auto));
+	/* grid-template-rows: repeat(10, minmax(100px, auto)); */
 	position: relative;
 }
 
@@ -306,6 +318,22 @@ nav ul li a {
 	grid-column: 8/13;
 	background-color: pink;
 	margin-top: 100px;
+}
+
+.bottom-page {
+	grid-column: 1/8;
+	padding-top: 300px;
+	display: flex;
+	align-items: center;
+}
+
+.bottom-page div {
+	padding-left: 20px;
+}
+
+.get-in-touch {
+	grid-column: 8/13;
+	padding-top: 300px;
 }
 
 .bottom-page img {
