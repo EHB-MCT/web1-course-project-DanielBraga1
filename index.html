@@ -29,13 +29,10 @@
 				<header>
 					<img src="images/logo.svg" alt="" />
 					<nav>
-						<ul>
-							<li><a href="#"> Home</a></li>
-							<li><a href="#"> About</a></li>
-							<li><a href="#"> Blog</a></li>
-							<li><a href="#"> Portfolio</a></li>
-							<li><a href="#"> Pages</a></li>
-							<li><a href="#"> Cart(0)</a></li>
+						<ul class="menu-desktop">
+							<li><a href="#home"> Home</a></li>
+							<li><a href="#about"> About</a></li>
+							<li><a href="#blog"> Blog</a></li>
 						</ul>
 
 						<!-- codepen overlay menu https://codepen.io/bradtraversy/pen/vMGBjQ -->
@@ -47,9 +44,8 @@
 									<div>
 										<ul>
 											<li><a href="#">Home</a></li>
-											<li><a href="#">About</a></li>
-											<li><a href="#">Blog</a></li>
-											<li><a href="#">Portfolio</a></li>
+											<li><a href="#about">About</a></li>
+											<li><a href="#blog">Blog</a></li>
 										</ul>
 									</div>
 								</div>
@@ -58,12 +54,11 @@
 					</nav>
 				</header>
 
-				<div class="hero">
+				<div class="hero" id="home">
 					<div class="hero-text">
 						<div class="line"></div>
 						<h3>Im John, a<br />Web Developer</h3>
 						<h1>Lorem ipsum dolor sit amet consectetur adipiscing elit leo quis ullamcorper quis id elementum convallis lacus gravida.</h1>
-						<a href="#" class="button">T</a>
 					</div>
 					<div class="about-text">
 						<div class="blok">
@@ -81,7 +76,7 @@
 			</div>
 		</div>
 
-		<div class="wrapper-outer light">
+		<div class="wrapper-outer light" id="about">
 			<div class="wrapper">
 				<div class="about-me">
 					<h2>ABOUT ME</h2>
@@ -108,7 +103,7 @@
 				</div>
 				<div class="line-2"></div>
 
-				<div class="article">
+				<div class="article" id="blog">
 					<h2>BLOG & ARTICLES</h2>
 					<h5>Check out my latest <br />articles and tutorials</h5>
 					<a href="#">Browse all articles</a>
